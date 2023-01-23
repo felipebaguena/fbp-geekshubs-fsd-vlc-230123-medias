@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(185, 142, 88);
+    margin:0;
+}
+
+.container0 {
+    background-color:brown;
+    height: 10vh;
+    display: flex;
+}
+
+
+.container1 {
+    background-color: aqua;
+    height: 70vh;
+    display: flex;
+}
+
+#container-izq {
+    background-color: blueviolet;
+    width: 30vw;
+}
+
+#container-der {
+    background-color: orange;
+    width: 70vw;
+}
+
+.container2 {
+
+    background-color: greenyellow;
+    height: 20vh;
+
+}
+
+@media (max-width: 360px){
+
+    #container-izq {
+        display: none;
+    }
+
+    #container-der {
+        width: 100vw;
+    }
+
+}
